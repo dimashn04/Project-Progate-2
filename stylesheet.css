@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container p {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: white;
+  /* background-image: url(https://prog-8.com/images/html/advanced/top_en.png); */
+  background-size: cover;
+  color: #515156;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 120px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #404146;
+  /*background-color: rgba(34, 49, 52, 0.9);*/
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+    margin-top: 12px;
+    color: white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: left;
+  margin-left: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  color: #404146;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #404146;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #7C7D82;
+  height: 200px;
+  width: 100%;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.imager {
+  height: 200px;
+  width: 200px;
+}
+
+.container-intro span {
+  color: #F1D00E;
+}
+
+.ken-logo {
+  height: 25%;
+  width: 25%;
+}
+
+.porto-intro {
+  font-size: 40px !important;
+}
+
+.about-me-wrapper {
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #F4F4F4;
+  text-align: center;
+}
+
+.contact-form {
+  padding-top: 40px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: #F7E989;
+  color: #4F4F4F;
+}
+
+.header-right {
+  float: right;
+  margin-left: 25px;
+}
